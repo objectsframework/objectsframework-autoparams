@@ -14,3 +14,6 @@ class App < ObjectsFramework::Object
 	end
 end
 ```
+
+## License
+Like all ObjectsFramework extensions the license is MIT.
