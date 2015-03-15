@@ -1,6 +1,6 @@
 ObjectsFramework Autoparams
 ============================
-__Only supports ObjectsFramework 1.1 and up__
+__Only supports ObjectsFramework 1.1 and up__    
 Autoparams is an experimental extension for ObjectsFramework.
 
 It will define methods for each parameter you receive in your HTTP request, so for example you have a HTTP request GET /?name=John, you will have the method "name" available that will contain the content of the parameter.
