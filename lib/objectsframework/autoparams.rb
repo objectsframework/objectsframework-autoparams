@@ -8,6 +8,8 @@ module ObjectsFramework
 			request.params.each_pair do |key,value|
 				self.define_singleton_method key, lambda {value}
 			end
+
+			return continue
 		end
 	end
 end
